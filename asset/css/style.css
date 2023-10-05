@@ -4,14 +4,20 @@
   :root{
    --dark-priamary: #1b1f24;
    --primary:#12bdff;
+   --nunito:'Nunito Sans', sans-serif;
   }
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
+
+html {
+   scroll-behavior: smooth;
+ }
+ 
 body{
-   font-family: 'Nunito Sans', sans-serif;
+   font-family: var(--nunito);
 }
 
 header{
@@ -24,19 +30,28 @@ header{
    align-items: center;
 }
 
-ul{
+header .logo {
+   color: var(--primary);
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-decoration: none;
+ 
+ }
+ 
+
+header ul{
    list-style: none;
    display:flex;
 }
-ul li{
+header ul li{
    margin-right: 20px;
 }
 
-ul li a{
+header ul li a{
    color: white;
    text-decoration: none;
 }
-ul li a:hover{
+header ul li a:hover{
    color: var(--primary);
 }
 
@@ -53,6 +68,38 @@ header button{
 }
 
 
+section.hero-section{
+   background-color: var(--dark-priamary);
+   display: flex;
+   color: white;
+   align-items: center;
+   padding: 20px 120px 0 240px;
+}
+.hero-section__title{
+   font-size: 48px;
+   font-weight: 900;
+}
+.hero-section__desc{
+   color: azure  ;
+}
+
+.social-icons{
+   margin: 20px 0;
+}
+.social-icons li{
+   margin-right: 15px;
+  
+}
+
+ul.social-icons{
+   list-style: none;
+   display: flex;
+}
+
+.social-icons li a{
+   text-decoration: none;
+   color: white;
+}
 
 
 /* header div ul{
