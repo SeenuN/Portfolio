@@ -2,8 +2,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,500;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
 
   :root{
-   --dark-priamary: #1b1f24;
    --primary:#12bdff;
+   --primary-hover:#0c8ec2;
+   --dark-priamary: #1b1f24;
    --nunito:'Nunito Sans', sans-serif;
   }
 *{
@@ -50,23 +51,11 @@ header ul li{
 header ul li a{
    color: white;
    text-decoration: none;
+   font-weight: 600;
 }
 header ul li a:hover{
    color: var(--primary);
 }
-
-
-/* header button*/
-
-header button{
-   padding: 10px 20px;
-   font-weight: bold;
-   background-color: var(--dark-priamary);
-   border: 1px solid var(--primary);
-   color: var(--primary);
-   border-radius: 5px;
-}
-
 
 section.hero-section{
    background-color: var(--dark-priamary);
@@ -78,6 +67,9 @@ section.hero-section{
 .hero-section__title{
    font-size: 48px;
    font-weight: 900;
+}
+.hero-section__title span{
+   color: var(--primary);
 }
 .hero-section__desc{
    color: azure  ;
@@ -100,12 +92,54 @@ ul.social-icons{
    text-decoration: none;
    color: white;
 }
-
-
-/* header div ul{
-   display: flex;
- 
+.social-icons li a i.fa-facebook:hover{
+   color: #0866FF;
 }
-header div ul li{
+.social-icons li a i.fa-linkedin:hover{
+   color: #0072b1 ;
+   
+}
+.social-icons li a i.fa-instagram:hover{
+   color:#feda75 ;
+   
+}
+.social-icons li a i.fa-twitter:hover{
+   color: #00acee;
+
+}
+
+.btn{
    padding: 10px 20px;
-} */
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+/* header button*/
+.btn-dark-outlined{
+   background-color: var(--dark-priamary);
+   border: 1px solid var(--primary);
+   color: var(--primary);
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.btn-dark-outlined:hover{
+   background-color: var(--primary);
+   color: white;
+}
+
+.btn.btn-primary{
+   background-color: var(--primary);
+   font-weight: 600;
+   color: var(--dark-priamary);
+   border: none;
+   border-radius: 5px;
+}
+.btn.btn-primary:hover{
+   background-color: var(--primary-hover);
+}
+ 
+.hero-buttons button{
+   margin-right: 10px;
+}
+
