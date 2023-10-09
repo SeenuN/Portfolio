@@ -143,3 +143,43 @@ ul.social-icons{
    margin-right: 10px;
 }
 
+/* About me */
+.about-section{
+   background-color:#22282f;
+   color: white;
+   padding: 90px;
+
+   display: flex;
+   justify-content: center;
+}
+
+.about-section img{
+   width:350px;
+   height: 350px;
+   border-radius: 50%;
+   border: 3px solid var(--primary);
+   box-shadow: 0px 0px 10px var(--primary);
+   /* padding: 50px; */
+}
+
+.about-section--desc{
+   margin-left: 100px;
+   max-width: 450px;
+}
+
+.about-section--desc h4{
+   font-size: 30px;
+   font-weight: 900;
+}
+.about-section--desc ul{
+   list-style: none;
+   margin-top: 10px;
+}
+.about-section--desc li {
+   margin-bottom: 8px;
+   color: grey;
+}
+
+.about-section--desc strong{
+   color: white;
+}
