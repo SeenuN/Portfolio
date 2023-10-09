@@ -63,6 +63,7 @@ section.hero-section{
    color: white;
    align-items: center;
    padding: 20px 120px 0 240px;
+   /* height: 600px; */
 }
 .hero-section__title{
    font-size: 48px;
