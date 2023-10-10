@@ -113,6 +113,7 @@ ul.social-icons{
    padding: 10px 20px;
    border-radius: 3px;
    cursor: pointer;
+   font-family:var(--nunito);
 }
 
 /* header button*/
@@ -252,4 +253,43 @@ ul.social-icons{
 }
 .work-section-box__icon:hover{
    background-color: var(--primary-hover);
+}
+
+/* contact section */
+.contact-section{
+   background-color: #14171c;
+   padding: 40px;
+   color: white;
+   text-align: center;
+}
+.contact-section h4{
+   font-size: 30px;
+   margin: 20px 0;
+   font-weight: 900;
+}
+.contact-section h4 span{
+   color: var(--primary);
+}
+.contact-section form div input,textarea{
+   padding: 5px 10px;
+   outline: none;
+   width: 350px;
+   border: none;
+   background-color:#c4c4c4;
+   border-radius: 2px;
+   margin-bottom: 10px;
+   resize: none;
+   font-family: var(--nunito);
+}
+
+footer{
+   background-color: var(--dark-priamary);
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 12px;
+}
+footer a{
+   text-decoration: none;
+   color: var(--primary);
 }
