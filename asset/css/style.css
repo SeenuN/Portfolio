@@ -310,15 +310,26 @@ footer a{
       padding: 40px;
 
    }
+   section.hero-section img{
+      display:none;
+   }
+   
    /* about-section */
    section.about-section{
       flex-direction: column;
       padding: 40px;
+      align-items: center;
    }
    .about-section--desc{
       margin-left: 0;
       margin-top: 30px;
    }
+   .about-section img{
+      width: 300px;
+      height: 300px;
+   }
+
+   /* work-section */
    .work-section{
       padding: 30px 10px;
    }
@@ -331,5 +342,10 @@ footer a{
       margin-right: 0;
       /* margin: 0 0 20px 50px; */
       width: 100%;
+   }
+
+   /* contact-section */
+   .contact-section form div input,textarea{
+      width:100%
    }
  }
