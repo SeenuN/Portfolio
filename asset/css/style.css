@@ -97,9 +97,7 @@ ul.social-icons{
    text-decoration: none;
    color: white;
 }
-.social-icons li a i.fa-facebook:hover{
-   color: #0866FF;
-}
+
 .social-icons li a i.fa-linkedin:hover{
    color: #0072b1 ;
    
@@ -108,11 +106,6 @@ ul.social-icons{
    color:#feda75 ;
    
 }
-.social-icons li a i.fa-twitter:hover{
-   color: #00acee;
-
-}
-
 .btn{
    padding: 10px 20px;
    border-radius: 3px;
